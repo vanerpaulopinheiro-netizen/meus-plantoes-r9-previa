@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://plantoes-sync.vksos.com https://plantoes-sync.vksos.tech http://127.0.0.1:8796 http://127.0.0.1:8797; manifest-src 'self'; worker-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Plantões">
+<meta name="description" content="Meus Plantões — plantões e recebimentos, só no seu aparelho.">
+<title>Meus Plantões</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <main id="app" tabindex="-1"><p class="empty" id="boot">Abrindo seus plantões…</p></main>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <nav id="tabs" class="tabs" aria-label="Principal"></nav>
+</div>
+<script type="module" src="src/app.js"></script>
+</body>
+</html>

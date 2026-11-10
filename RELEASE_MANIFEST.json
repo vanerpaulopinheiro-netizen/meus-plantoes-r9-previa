@@ -1,0 +1,92 @@
+{
+ "app": "meus-plantoes",
+ "version": "1.0.0+a53c28ca8f",
+ "built_at": "2026-11-10T15:40:43.811044+00:00",
+ "source_commit": "91a8514fd57de9204a2c8cf1770e3b5bd50a5526",
+ "source_repo": "M:/VKS-DATA/LAB/plantoes-pessoais-20261020 (git local, pasta app/)",
+ "public_files": {
+  "index.html": {
+   "sha256": "12107efc662b3454f19d4f570d41ce55bea98f77273147dc3a90aeb272da3406",
+   "bytes": 1630
+  },
+  "styles.css": {
+   "sha256": "4733755150e963cba216a80adc2372cbbc2ea63329152c92f17b1c9ab735dfd4",
+   "bytes": 57113
+  },
+  "sw.js": {
+   "sha256": "58230648f64aed5697d97698cecb68c9d25f61b4f73a61be27ba7b126fadb9b2",
+   "bytes": 1814
+  },
+  "manifest.webmanifest": {
+   "sha256": "73d7ec3548d22c181124845dcae448719243fc24b490ee6ca2d110f82fbd15f0",
+   "bytes": 589
+  },
+  "sample.js": {
+   "sha256": "4912d0815b2a69e8f2845d46c9777a6848384e8f652f2ddbf5798f208bdcd8bc",
+   "bytes": 25006
+  },
+  "README.md": {
+   "sha256": "755dbda8ed8fb3115f86a9ace53eb0e8c491f38dc2c2a4dd33d85cd38a56085f",
+   "bytes": 3965
+  },
+  "src/app.js": {
+   "sha256": "fc9b511a4cf5cabce25e429b721e75a29b62b496207432e1afe56470a907bf89",
+   "bytes": 193932
+  },
+  "src/core.js": {
+   "sha256": "651f15553d90d8e80dff75ee2a8b06b138d0e58eec79b993cc5f10979ece20e3",
+   "bytes": 28455
+  },
+  "src/store.js": {
+   "sha256": "a261a102bf4b81faee2554dc810571e5fe89368bc816888ac2c89728b343e765",
+   "bytes": 8056
+  },
+  "src/codecs.js": {
+   "sha256": "613d7b0df053491683660908e6574074b393a4220fc9c4ff5ac66b1e6a6ca438",
+   "bytes": 32809
+  },
+  "src/sync.js": {
+   "sha256": "2edf2344f6982c0f535da222a257b255217728ed30f473e42d47a17e13b0efe8",
+   "bytes": 7141
+  },
+  "src/merge.js": {
+   "sha256": "55d3d2362b055ea05fd204439e2aa19f0558bc570bdb3b0f2d1866ffc169edd6",
+   "bytes": 10671
+  },
+  "src/sync2.js": {
+   "sha256": "feee0485795960e53b7633a4844c5f69dfc2a7467e45f74122e6e6e77205dad7",
+   "bytes": 16313
+  },
+  "src/version.js": {
+   "sha256": "7ee57dc6ba19cd53f73c4fe0b2e17682d36aaf91d123448c0b49ee0cb76a1c4a",
+   "bytes": 104
+  },
+  "icons/icon-192.png": {
+   "sha256": "9847537ac4ef24df572d1210cd2e8ee41c9eacbaa9d0d1f83319317060efe44f",
+   "bytes": 5852
+  },
+  "icons/icon-512.png": {
+   "sha256": "25615043616d9378251c41c02112e9497eb2e7a96d8cb9c617a0e31b35b568f7",
+   "bytes": 15755
+  },
+  "icons/maskable-512.png": {
+   "sha256": "31fb36bf618f838087b567a7f01f6fe395efe573eed972ce3896212a2e9a062d",
+   "bytes": 9188
+  },
+  "icons/apple-touch-icon.png": {
+   "sha256": "6df936f712c52c1f0fd07c4fdf0225efeb4c6760bb11dbfa975e21b70b5bd3f1",
+   "bytes": 5547
+  },
+  "fonts/inter-var.woff2": {
+   "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+   "bytes": 48256
+  }
+ },
+ "tree_sha256": "f85c4b206ea681d6385ab2029fa99fb7b7e804a528551ef41ed158be543e6392",
+ "notes": [
+  "somente arquivos públicos do app; nenhum teste, ferramenta, dado real ou segredo",
+  "sample.js = dados fictícios opcionais (Carregar dados de exemplo)",
+  "CSP default-src 'self'; nenhuma requisição externa",
+  "CNAME = plantoes.vksos.tech (domínio próprio do Pages)"
+ ]
+}
